@@ -30,6 +30,27 @@
 			remoteGlobalIDString = FF9E78211E162314009F6257;
 			remoteInfo = First;
 		};
+		FF9E78561E1626E4009F6257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9E78501E1626E4009F6257 /* First.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52CEFF5E1DA428FC00244CF8;
+			remoteInfo = First;
+		};
+		FF9E78581E1626E4009F6257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9E78501E1626E4009F6257 /* First.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52CEFF6F1DA428FC00244CF8;
+			remoteInfo = FirstTests;
+		};
+		FF9E785A1E1626E4009F6257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9E78501E1626E4009F6257 /* First.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52CEFF7A1DA428FC00244CF8;
+			remoteInfo = FirstUITests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +66,7 @@
 		FF9E783E1E162315009F6257 /* FirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9E78421E162315009F6257 /* FirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUITests.swift; sourceTree = "<group>"; };
 		FF9E78441E162315009F6257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9E78501E1626E4009F6257 /* First.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = First.xcodeproj; path = "../../Ex_Files_Xcode_8_EssT/Exercise Files/Chapter 01/importing/start/First/First.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +119,7 @@
 			children = (
 				FF9E78251E162315009F6257 /* AppDelegate.swift */,
 				FF9E78271E162315009F6257 /* ViewController.swift */,
+				FF9E78501E1626E4009F6257 /* First.xcodeproj */,
 				FF9E78291E162315009F6257 /* Assets.xcassets */,
 				FF9E782B1E162315009F6257 /* Main.storyboard */,
 				FF9E782E1E162315009F6257 /* Info.plist */,
@@ -120,6 +143,16 @@
 				FF9E78441E162315009F6257 /* Info.plist */,
 			);
 			path = FirstUITests;
+			sourceTree = "<group>";
+		};
+		FF9E78511E1626E4009F6257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9E78571E1626E4009F6257 /* First.app */,
+				FF9E78591E1626E4009F6257 /* FirstTests.xctest */,
+				FF9E785B1E1626E4009F6257 /* FirstUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +248,12 @@
 			mainGroup = FF9E78191E162314009F6257;
 			productRefGroup = FF9E78231E162315009F6257 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF9E78511E1626E4009F6257 /* Products */;
+					ProjectRef = FF9E78501E1626E4009F6257 /* First.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FF9E78211E162314009F6257 /* First */,
@@ -223,6 +262,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF9E78571E1626E4009F6257 /* First.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = First.app;
+			remoteRef = FF9E78561E1626E4009F6257 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF9E78591E1626E4009F6257 /* FirstTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirstTests.xctest;
+			remoteRef = FF9E78581E1626E4009F6257 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF9E785B1E1626E4009F6257 /* FirstUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirstUITests.xctest;
+			remoteRef = FF9E785A1E1626E4009F6257 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FF9E78201E162314009F6257 /* Resources */ = {
